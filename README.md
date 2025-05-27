@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# Task Manager Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive, accessible, and user-friendly Task Manager built with React and Framer Motion. This application allows you to create, edit, delete, and filter tasks by different categories, with smooth animations and custom alerts.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+* [Features](#features)
+* [Demo](#demo)
+* [Tech Stack](#tech-stack)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Accessibility](#accessibility)
+* [Project Structure](#project-structure)
+* [Contributing](#contributing)
+* [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Add Tasks**: Create new tasks with a title and category.
+* **Edit Tasks**: Inline editing by double-clicking the task text.
+* **Delete Tasks**: Remove tasks easily with a delete button and confirmation dialog.
+* **Toggle Completion**: Mark tasks as completed or not by clicking or pressing Enter.
+* **Filter & Search**: Filter tasks by category and search by keyword.
+* **Clear Completed**: Bulk remove all completed tasks.
+* **Smooth Animations**: Powered by [Framer Motion](https://www.framer.com/motion/).
+* **Custom Alerts**: Accessible modal alerts for notifications.
+* **Persisted Data**: Tasks and user filter preferences stored in `localStorage`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+*Add a link or GIF here demonstrating the application in action.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+* **React** (v18+)
+* **Framer Motion** for animations
+* **JavaScript (ES6+)**
+* **HTML5 & CSS3**
+* **LocalStorage** for data persistence
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repository**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/blope12/QuickLists.git
+   cd QuickLists
+   ```
 
-### `npm run eject`
+2. **Install dependencies**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. **Run the development server**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Build for production**
 
-## Learn More
+   ```bash
+   npm run build
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Add a new task**: Enter task text, select a category, and click **Add**.
+2. **Edit a task**: Double-click the task text or select and press Enter; edit inline and press Enter or click outside.
+3. **Complete a task**: Click on a task or press Enter when focused.
+4. **Delete a task**: Click the trash can icon and confirm deletion.
+5. **Filter tasks**: Click category buttons to filter, or use the search box to find tasks by text.
+6. **Clear completed**: Click **Clear Completed** to remove all tasks marked as done.
 
-### Code Splitting
+## Accessibility
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* **Keyboard Navigation**: All interactive elements can be operated via keyboard (Enter, Escape).
+* **ARIA Roles & Attributes**: Proper roles (`role="alertdialog"`, `aria-live`, `aria-pressed`, etc.) for screen readers.
+* **Focus Management**: Inputs and modals manage focus appropriately.
 
-### Analyzing the Bundle Size
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+src/
+├── App.js          # Main component
+├── Task.js         # Individual task component
+├── FilterButtons.js# Category filter component
+├── CustomAlert.js  # Accessible alert modal
+├── index.js        # Entry point
+└── styles.css      # Stylesheet
+```
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Contributions are welcome! Please follow these steps:
 
-### Advanced Configuration
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add YourFeature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
