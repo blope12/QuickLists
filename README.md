@@ -1,4 +1,5 @@
 # Task Manager Application
+![Screenshot 2025-05-27 062905](https://github.com/user-attachments/assets/2c0408c0-09d0-46c8-b7ad-0767657f0bac)
 
 A responsive, accessible, and user-friendly Task Manager built with React and Framer Motion. This application allows you to create, edit, delete, and filter tasks by different categories, with smooth animations and custom alerts.
 
@@ -19,7 +20,8 @@ A responsive, accessible, and user-friendly Task Manager built with React and Fr
 * **Add Tasks**: Create new tasks with a title and category.
 * **Edit Tasks**: Inline editing by double-clicking the task text.
 * **Delete Tasks**: Remove tasks easily with a delete button and confirmation dialog.
-* **Toggle Completion**: Mark tasks as completed or not by clicking or pressing Enter.
+* **Toggle Completion**: Mark tasks as completed or not by clicking or pressing Enter.![Screenshot 2025-05-27 062905](https://github.com/user-attachments/assets/bae6bd75-3668-4d89-8776-9b72a4dbd57f)
+
 * **Filter & Search**: Filter tasks by category and search by keyword.
 * **Clear Completed**: Bulk remove all completed tasks.
 * **Smooth Animations**: Powered by [Framer Motion](https://www.framer.com/motion/).
@@ -28,7 +30,8 @@ A responsive, accessible, and user-friendly Task Manager built with React and Fr
 
 ## Demo
 
-*Add a link or GIF here demonstrating the application in action.*
+[*Add a link or GIF here demonstrating the application in action.*
+](https://sprightly-axolotl-3d0937.netlify.app)
 
 ## Tech Stack
 
