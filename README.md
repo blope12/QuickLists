@@ -12,7 +12,6 @@ A responsive, accessible, and user-friendly Task Manager built with React and Fr
 * [Accessibility](#accessibility)
 * [Project Structure](#project-structure)
 * [Contributing](#contributing)
-* [License](#license)
 
 ## Features
 
@@ -102,6 +101,3 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
