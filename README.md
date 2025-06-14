@@ -30,7 +30,7 @@ A responsive, accessible, and user-friendly Task Manager built with React and Fr
 
 ## Demo
 
-[*Add a link or GIF here demonstrating the application in action.*
+[*DEMO.*
 ](https://sprightly-axolotl-3d0937.netlify.app)
 
 ## Tech Stack
